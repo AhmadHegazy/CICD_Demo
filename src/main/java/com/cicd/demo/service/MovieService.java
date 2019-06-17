@@ -77,13 +77,12 @@ public class MovieService {
 		}
 		return this.db.put(f.getId(), f);
 	}
-//	commented for third git commit
 	// Delete a movie from database
-//	public void removeMovie(String id) {
-//		if(!this.db.containsKey(id)) {
-//			throw new IllegalArgumentException("Invalid Movie or Movie does not exist!");
-//		}
-//		this.db.remove(id);
-//	}
+	public void removeMovie(String id) {
+		if(!this.db.containsKey(id)) {
+			throw new IllegalArgumentException("Invalid Movie or Movie does not exist!");
+		}
+		this.db.remove(id);
+	}
 	
 }
