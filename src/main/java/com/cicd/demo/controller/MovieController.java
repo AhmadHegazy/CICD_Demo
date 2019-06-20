@@ -45,6 +45,7 @@ public class MovieController {
 	}
 	
 	// API End-point to add a new movie to database
+	//matef eblapoc
 	@POST
 	@Consumes("application/json")
 	public Response add(Movie movie, @Context UriInfo info) {
