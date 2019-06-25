@@ -30,6 +30,7 @@ public class MovieController {
 	MovieService movieService;
 	
 	// API End-point to get a list of all movies in the database
+	// matef comment
 	@GET
 	@Produces("application/json")
 	public Collection<Movie> movies() {
