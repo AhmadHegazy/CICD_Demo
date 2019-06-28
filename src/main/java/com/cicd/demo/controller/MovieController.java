@@ -49,7 +49,7 @@ public class MovieController {
 	//matef eblapoc maven project
 	@POST
 	@Consumes("application/json")
-	public Response add(Movie movie, @Context UriInfo info) {
+	 Response add(Movie movie, @Context UriInfo info) {
 		movieService.addMovie(movie);
 		return Response.created(URI.create(
 				info.getAbsolutePath().toString()+"/"+movie.getId()
