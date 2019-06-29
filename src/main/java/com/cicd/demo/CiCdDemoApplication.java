@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationContext;
 public class CiCdDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CiCdDemoApplication.class, args);
+		//SpringApplication.run(CiCdDemoApplication.class, args);
 	}
 
 }
