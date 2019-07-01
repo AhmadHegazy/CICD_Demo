@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class CiCdDemoApplication {
 
-	//public static void main(String[] args) {
+	public static void main(String[] args) {
 		SpringApplication.run(CiCdDemoApplication.class, args);
 	}
 
